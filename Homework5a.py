@@ -49,7 +49,7 @@
 
 # secondMove = 0
 # i = 1
-# while secondMove < numSweets:
+# while numSweets > numSweetsForTime:
 #     firstMove = numSweets % (numSweetsForTime + 1)
 #     print(f'{i}-ый ход первого игрока - {firstMove} конфет')
 #     secondMove = random.randint(1, 28)
